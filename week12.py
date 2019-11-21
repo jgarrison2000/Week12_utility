@@ -20,11 +20,21 @@ def LoadFile(filename):
 # Function 3
 def UpdateString(x,y,num):
     list1 = list(x)
-    print(list1)
     list1[num] = y
     ret = ''.join(list1)
     print('OUTPUT', ret)
+
+
+# Function 4
+def FindWordCount(list1, string):
+    count = 0
+    for x in list1:
+        if x == string:
+            count +=1
+    print('OUTPUT', count)
+        
     
+
     
     
     
