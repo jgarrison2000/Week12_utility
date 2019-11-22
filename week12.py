@@ -54,6 +54,11 @@ def ScoreFinder(list1, list2, string):
 def Union(list1, list2):
     list3 = list(set(list1) | set(list2))
     return list3
+
+# Function 7
+def Intersection(list1, list2):
+    list3 = list(set(list1) & set(list2))
+    return list3
     
     
     
