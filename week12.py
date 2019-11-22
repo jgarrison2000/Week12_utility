@@ -49,6 +49,11 @@ def ScoreFinder(list1, list2, string):
         PrintOutput(output)
     else:
         PrintOutput('player not found')
+
+# Function 6
+def Union(list1, list2):
+    list3 = list(set(list1) | set(list2))
+    return list3
     
     
     
